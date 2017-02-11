@@ -1,0 +1,137 @@
+html {
+	background-color: rgb(29,24,86);
+	color: white;
+}
+
+
+h1 {
+	color: rgb(255,191,0)
+}
+
+
+body {
+	max-width: 900px;
+}
+
+h2 {
+	text-decoration: underline;
+	color: rgb(0,190,227);
+}
+
+header {
+	font-family: Helvetica, Times, serif;
+	font-size: 1.2em;
+	display: block;
+	margin: 0px auto;
+	max-width: 900px;
+}
+
+
+main {
+	display: block;
+	margin: 0px auto;
+}
+
+#kennPicDiv {
+	display: inline-block;
+	min-width: 10%;
+	max-width: 20%;
+	vertical-align: middle;
+}
+
+img {
+	max-width: 100%;
+}
+
+#pageTitle {
+	display: inline-block;
+	width: 65%;
+	vertical-align: middle;
+}
+
+section {
+	margin: 0px auto;
+}
+
+
+.divText {
+	display: inline-block;
+	position: relative;
+	max-width: 50%;
+	vertical-align: top;
+	padding: 0px 20px 0px 20px;
+}
+
+
+.image {
+	max-width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px -20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  
+body {
+	max-width: 480px;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+header {
+	display: block;
+	margin: 0px auto;
+	max-width: 480px;
+}
+
+
+main {
+	display: block;
+	margin: 0px auto;
+}
+
+#kennPicDiv {
+	max-width: 50%;
+	display: block;
+	margin: 0px auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
+#pageTitle {
+	display: block;
+	text-align: center;
+	margin: 0px auto;
+}
+
+section {
+	margin: 0px auto;
+}
+
+
+.divText {
+	display: block;
+	text-align: justify;
+	max-width: 100%;
+}
+
+
+.image {
+	display: block;
+	max-width: 100%;
+	margin: 0px auto;
+}
+
+}
